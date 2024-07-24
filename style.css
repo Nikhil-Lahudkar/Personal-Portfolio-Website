@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#About {
+    background-image: url(developer.png);
+    height: 600px;
+    color: #fff;
+}
+
+header {
+    background: #3a3939;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#project {
+    background-color: cadetblue;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Task {
+    width: 45%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.Task img {
+    width: 100%;
+    height: auto;
+}
+
+#contact {
+    background-color: rgb(125, 93, 93);
+    color: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
